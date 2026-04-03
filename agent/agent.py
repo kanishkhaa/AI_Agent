@@ -184,6 +184,8 @@ Query: {query}
         params = decision_json.get("parameters", {})
         return _call_tool(tool_name, params)
 
+    from rag.retriever import retrieve
+
     context = retrieve(query)
 
     prompt = f"""
