@@ -1,0 +1,23 @@
+# environment variables
+.env
+.env.*
+!.env.example
+secrets.env
+
+# dependencies
+node_modules/
+
+# build files
+dist/
+build/
+
+# logs
+*.log
+
+# secrets and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+service-account*.json

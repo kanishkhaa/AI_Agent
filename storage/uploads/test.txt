@@ -1,0 +1,2 @@
+Artificial Intelligence (AI) is the simulation of human intelligence in machines. 
+It allows systems to learn, reason, and make decisions.
